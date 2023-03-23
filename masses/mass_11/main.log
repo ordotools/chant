@@ -1,0 +1,535 @@
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.10.6)  11 JAN 2023 15:12
+ restricted system commands enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2021-11-15> patch level 1
+Lua module: luaotfload 2022-03-18 3.21 Lua based OpenType font support
+Lua module: lualibs 2021-05-20 2.74 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2021-05-20 2.74 ConTeXt Lua libraries -- extended c
+ollection.
+luaotfload | conf : Root cache directory is "/Users/frbarnes/Library/texlive/202
+2/texmf-var/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2022-02-24.lua" from kpse-res
+olved path "/usr/local/texlive/2022/texmf-dist/tex/luatex/luaotfload/fontloader-
+2022-02-24.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.119
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' at position 1 in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "/Users/frbarnes/Library/texlive/202
+2/texmf-var/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' at position 1 in `glyph_stream_provider'
+.
+Inserting `luaotfload.harf.finalize_vlist' at position 1 in `post_linebreak_filt
+er'.
+Inserting `luaotfload.harf.finalize_hlist' at position 2 in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' at position 1 in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' at position 1 in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' at position 1 in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.set_font_index' at position 2 in `luaotfload.patch_fon
+t'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 3 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
+. L3 programming layer <2022-02-24>
+Inserting `tracingstacklevels' at position 1 in `input_level_string'.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from /Users/frbarnes/Library/texliv
+e/2022/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz)
+\c@part=\count183
+\c@chapter=\count184
+\c@section=\count185
+\c@subsection=\count186
+\c@subsubsection=\count187
+\c@paragraph=\count188
+\c@subparagraph=\count189
+\c@figure=\count190
+\c@table=\count191
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen137
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count192
+\Gm@cntv=\count193
+\c@Gm@tempcnt=\count194
+\Gm@bindingoffset=\dimen138
+\Gm@wd@mp=\dimen139
+\Gm@odd@mp=\dimen140
+\Gm@even@mp=\dimen141
+\Gm@layoutwidth=\dimen142
+\Gm@layoutheight=\dimen143
+\Gm@layouthoffset=\dimen144
+\Gm@layoutvoffset=\dimen145
+\Gm@dimlist=\toks17
+)
+(/usr/local/texlive/2022/texmf-dist/tex/lualatex/gregoriotex/gregoriotex.sty
+Package: gregoriotex 2021/03/13 v6.0.0 GregorioTeX system.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 227.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2021/06/01 v1.2c Graphics/color driver for luatex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/luacolor/luacolor.sty
+Package: luacolor 2021-02-17 v1.17 Color support via LuaTeX's attributes (HO)
+Inserting `luacolor.process' at position 1 in `pre_shipout_filter'.
+\LuaCol@Attribute=\attribute4
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 107.
+)
+\Gin@req@height=\dimen146
+\Gin@req@width=\dimen147
+)
+(/usr/local/texlive/2022/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
+Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX 
+
+(/usr/local/texlive/2022/texmf-dist/tex/luatex/ctablestack/ctablestack.sty
+Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
+\@catcodetablestackcnt=\count195
+)
+\CatcodeTableOther=\catcodetable12
+\CatcodeTableExpl=\catcodetable13
+)
+(/usr/local/texlive/2022/texmf-dist/tex/luatex/luamplib/luamplib.sty
+Package: luamplib 2022/01/12 v2.23.0 mplib package for LuaTeX
+Lua module: luamplib 2022/01/12 2.23.0 Lua package to typeset Metapost with LuaT
+eX's MPLib.
+\mplibtmptoks=\toks18
+\mplibscratchbox=\box50
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/xstring/xstring.tex
+\integerpart=\count196
+\decimalpart=\count197
+)
+Package: xstring 2021/07/21 v1.84 String manipulations (CT)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/luatex/gregoriotex/gregoriotex-main.tex
+
+(/usr/local/texlive/2022/texmf-dist/tex/luatex/gregoriotex/gregoriotex-common.t
+ex)
+\gre@attr@dash=\attribute5
+\gre@attr@center=\attribute6
+\GreScoreId=\attribute7
+\gre@attr@glyph@id=\attribute8
+\gre@attr@glyph@top=\attribute9
+\gre@attr@glyph@bottom=\attribute10
+\gre@attr@syllable@id=\attribute11
+\gre@atletter=\catcodetable14
+Lua module: gregoriotex 2021/03/13 6.0.0 GregorioTeX module.
+Custom whatsit marker = 1
+Module gregoriotex Info: marker whatsit id is 1 on input line 121
+
+(main.gaux)
+Module gregoriotex Info: Reading main.gaux on input line 125
+Inserting `gregoriotex.write_greaux' at position 2 in `finish_pdffile'.
+\gre@gaux=\write3
+\gre@read@temp=\read2
+\gre@factor=\count198
+
+(/usr/local/texlive/2022/texmf-dist/tex/luatex/gregoriotex/gregoriotex-spaces.t
+ex
+\gre@saved@prescore@hyphenpenalty=\count199
+\gre@saved@prescore@exhyphenpenalty=\count266
+\gre@saved@prescore@exhyphenchar=\count267
+\gre@saved@prescore@doublehyphendemerits=\count268
+\gre@saved@prescore@finalhyphendemerits=\count269
+\gre@saved@prescore@brokenpenalty=\count270
+\gre@saved@prescore@looseness=\count271
+\gre@saved@prescore@tolerance=\count272
+\gre@saved@prescore@pretolerance=\count273
+\gre@saved@prescore@emergencystretch=\skip49
+\gre@saved@prescore@widowpenalty=\count274
+\gre@saved@prescore@clubpenalty=\count275
+\gre@saved@prescore@parskip=\skip50
+\gre@saved@prescore@lineskip=\skip51
+\gre@saved@prescore@baselineskip=\skip52
+\gre@saved@prescore@lineskiplimit=\skip53
+\gre@dimen@textlower=\dimen148
+\gre@dimen@stafflinewidth=\dimen149
+\gre@dimen@linewidth=\dimen150
+\gre@dimen@stafflineheight=\dimen151
+\gre@dimen@interstafflinespace=\dimen152
+\gre@dimen@stafflinediff=\dimen153
+\gre@dimen@constantglyphraise=\dimen154
+\gre@dimen@staffheight=\dimen155
+\gre@skip@syllablefinalskip=\skip54
+\gre@skip@minTextDistance=\skip55
+\gre@skip@minNotesDistance=\skip56
+\gre@dimen@curTextDistance=\dimen156
+\gre@dimen@curNotesDistance=\dimen157
+\gre@skip@minShiftText=\skip57
+\gre@skip@minShiftNotes=\skip58
+\gre@dimen@bolshift=\dimen158
+\gre@dimen@bolextra=\dimen159
+\gre@dimen@clefwidth@current=\dimen160
+\gre@dimen@clefwidth@largest=\dimen161
+\gre@dimen@clefwidth@bol=\dimen162
+\gre@dimen@eolshift=\dimen163
+\gre@dimen@glyphraisevalue=\dimen164
+\gre@dimen@additionalbottomspace=\dimen165
+\gre@dimen@additionaltopspace=\dimen166
+\gre@dimen@additionaltopspacealt=\dimen167
+\gre@dimen@additionaltopspacenabc=\dimen168
+\gre@space@count@additionaltopspacethreshold=\count276
+\gre@space@count@additionaltopspacealtthreshold=\count277
+\gre@space@count@additionaltopspacenabcthreshold=\count278
+\gre@space@count@noteadditionalspacelinestextthreshold=\count279
+\gre@saved@prediscretionary@dimen@additionalbottomspace=\dimen169
+\gre@saved@prediscretionary@dimen@additionaltopspace=\dimen170
+\gre@saved@prediscretionary@dimen@additionaltopspacealt=\dimen171
+\gre@saved@prediscretionary@dimen@additionaltopspacenabc=\dimen172
+\gre@saved@prediscretionary@dimen@currenttranslationheight=\dimen173
+\gre@saved@prediscretionary@dimen@textlower=\dimen174
+\gre@saved@prediscretionary@dimen@currentabovelinestextheight=\dimen175
+\gre@saved@prediscretionary@dimen@constantglyphraise=\dimen176
+\gre@dimen@textaligncenter=\dimen177
+\gre@dimen@enddifference=\dimen178
+\gre@dimen@previousenddifference=\dimen179
+\gre@dimen@currenttranslationheight=\dimen180
+\gre@skip@nextbegindifference=\skip59
+\gre@dimen@annotationtrueraise=\dimen181
+\gre@dimen@commentarytrueraise=\dimen182
+\gre@skip@bar@requirement=\skip60
+\gre@skip@bar@allocation=\skip61
+\gre@dimen@bar@shift=\dimen183
+\gre@skip@text@requirement=\skip62
+\gre@skip@text@allocation=\skip63
+\gre@dimen@text@shift=\dimen184
+\gre@dimen@adjustedpreviousenddifference=\dimen185
+\gre@skip@adjustednextbegindifference=\dimen186
+\gre@skip@punctummorashift=\skip64
+\gre@skip@alterationshift=\skip65
+\gre@dimen@begindifference=\dimen187
+\gre@dimen@lastglyphwidth=\dimen188
+\gre@dimen@notesaligncenter=\dimen189
+\gre@dimen@additionalleftspace=\dimen190
+\gre@dimen@initialwidth=\dimen191
+\gre@dimen@currentabovelinestextheight=\dimen192
+\gre@dimen@temp@one=\dimen193
+\gre@dimen@temp@two=\dimen194
+\gre@dimen@temp@three=\dimen195
+\gre@dimen@temp@four=\dimen196
+\gre@dimen@temp@five=\dimen197
+\gre@skip@temp@one=\skip66
+\gre@skip@temp@two=\skip67
+\gre@skip@temp@three=\skip68
+\gre@skip@temp@four=\skip69
+\gre@count@temp@one=\count280
+\gre@count@temp@two=\count281
+\gre@count@temp@three=\count282
+\gre@space@count@newlinepenalty=\count283
+\gre@space@count@nobreakpenalty=\count284
+\gre@space@count@endofwordpenalty=\count285
+\gre@space@count@endofsyllablepenalty=\count286
+\gre@space@count@endafterbarpenalty=\count287
+\gre@space@count@endafterbaraltpenalty=\count288
+\gre@space@count@finalpenalty=\count289
+\gre@space@count@endofelementpenalty=\count290
+\gre@space@count@hyphenpenalty=\count291
+\gre@space@count@brokenpenalty=\count292
+\gre@space@count@looseness=\count293
+\gre@space@count@tolerance=\count294
+\gre@space@count@pretolerance=\count295
+\gre@space@count@widowpenalty=\count296
+\gre@space@count@clubpenalty=\count297
+\greconffactor=\count298
+)
+\gre@box@temp@width=\box51
+\gre@box@initial=\box52
+\gre@biginitial=\count299
+\gre@knownline=\count300
+\gre@box@annotation=\box53
+\gre@box@add=\box54
+\gre@box@old=\box55
+\gre@count@annotationvalign=\count301
+\gre@box@commentary=\box56
+\gre@box@lines=\box57
+Module gregoriotex Info: Registering variant font greciliae as gre@font@variant@
+A. on input line 987
+Module gregoriotex Info: Registering variant font greciliae-hollow as gre@font@v
+ariant@B. on input line 987
+Module gregoriotex Info: Registering variant font greciliae-hole as gre@font@var
+iant@C. on input line 987
+luaotfload | cache : Lookup cache loaded from /Users/frbarnes/Library/texlive/20
+22/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
+Module gregoriotex Info: Mapping font greciliae on input line 992
+Module gregoriotex Info: Mapping font greciliae-hollow on input line 992
+Module gregoriotex Info: Mapping font greciliae-hole on input line 992
+
+(/usr/local/texlive/2022/texmf-dist/tex/luatex/gregoriotex/gregoriotex-chars.te
+x
+\gre@box@hep=\box58
+)
+(/usr/local/texlive/2022/texmf-dist/tex/luatex/gregoriotex/gregoriotex-signs.te
+x
+\gre@box@temp@clef=\box59
+\gre@box@temp@cleftwo=\box60
+\greslurheight=\dimen198
+\gre@box@temp@sign=\box61
+\gre@count@shiftaftermora=\count302
+\gre@dimen@morawidth=\dimen199
+\gre@skip@bar@lastskip=\skip70
+\gre@count@lastglyphiscavum=\count303
+)
+(/usr/local/texlive/2022/texmf-dist/tex/luatex/gregoriotex/gregoriotex-syllable
+.tex
+\gre@generate@pointandclick=\count304
+\gre@box@syllablenotes=\box62
+\gre@box@syllabletext=\box63
+\gre@clivisalignment=\count305
+\gre@count@unbreakabletotalnotes=\count306
+\gre@count@unbreakableinitialnotes=\count307
+\gre@count@unbreakablefinalnotes=\count308
+\gre@count@syllablenotes=\count309
+)
+\gre@variableheightexpansion=\count310
+\gre@lastoflinecount=\count311
+\gre@saved@prenlba@nobreakpenalty=\count312
+\gre@saved@prenlba@endofwordpenalty=\count313
+\gre@saved@prenlba@endofsyllablepenalty=\count314
+\gre@saved@prenlba@endafterbarpenalty=\count315
+\gre@saved@prenlba@endafterbaraltpenalty=\count316
+\gre@saved@prenlba@endofelementpenalty=\count317
+\gre@saved@prenlba@hyphenpenalty=\count318
+\gre@lasteuouaeindex=\count319
+
+(/usr/local/texlive/2022/texmf-dist/tex/luatex/gregoriotex/gregoriotex-symbols.
+tex
+Module gregoriotex Info: Registering variant font greextra as gre@font@variant@D
+. on input line 53
+)
+\gre@dimen@stafflinethicknessbase=\dimen256
+\gre@dimen@glyphraisebase=\dimen257
+\gre@dimen@interstafflinedistancebase=\dimen258
+\gre@dimen@inclinatumonlinemoravshiftbase=\dimen259
+\gre@dimen@inclinatumonlinemorahshiftbase=\dimen260
+\gre@dimen@inclinatumofflinemorahshiftbase=\dimen261
+
+(/usr/local/texlive/2022/texmf-dist/tex/luatex/gregoriotex/gregoriotex-gsp-defa
+ult.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/luatex/gregoriotex/gregoriotex-nabc.tex
+)))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
+File: l3backend-luatex.def 2022-02-07 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count320
+\l__pdf_internal_box=\box64
+)
+(./main.aux)
+\openout1 = main.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
+9.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+*geometry* verbose mode - [ preamble ] result:
+* driver: luatex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(54.2025pt, 523.9575pt, 36.135pt)
+* v-part:(T,H,B)=(36.135pt, 722.7pt, 36.135pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=523.9575pt
+* \textheight=722.7pt
+* \oddsidemargin=-18.06749pt
+* \evensidemargin=-36.135pt
+* \topmargin=-66.20248pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=48.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumntrue
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count321
+\scratchdimen=\dimen262
+\scratchbox=\box65
+\nofMPsegments=\count322
+\nofMParguments=\count323
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count324
+\MPscratchDim=\dimen263
+\MPnumerator=\count325
+\makeMPintoPDFobject=\count326
+\everyMPtoPDFconversion=\toks20
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Module gregoriotex Info: Processing gabc snippet... on input line 28
+Module gregoriotex Info: will use gregorio on input line 28
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' at position 2 in `post_linebreak_filt
+er'.
+Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Underfull \hbox (badness 1303) in paragraph at lines 7--480
+[][][][] [] [] [] [][] [] [] [] [] []  [][][][][][] [] [] [] [] [] [][][][] [][
+][] [][][] [] [] [][]  [][][][][] [][][] [][][][] [] [] [] []
+ []
+
+
+Underfull \hbox (badness 5519) in paragraph at lines 7--480
+[][][][][][][] [] [] [] [] [] [][][][] [][][] [][][] [] [] [][]  [][][] [][][] 
+[][][] [] [] [] [] [] [][] [] [] [] [] [] []
+ []
+
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
+Module gregoriotex Info: Processing gabc snippet... on input line 34
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' at position 2 in `post_linebreak_filt
+er'.
+Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
+Module gregoriotex Info: Processing gabc snippet... on input line 42
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' at position 2 in `post_linebreak_filt
+er'.
+Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Underfull \hbox (badness 2293) in paragraph at lines 7--589
+[][][][][][][] [] [] []  [][][] [][][] [][][][] [][][] [] [] [][][] [][][] [] [
+] [][]  [][][][][][] [][][][][] [][][] [] [] [] []
+ []
+
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'. [1{/usr/local/texl
+ive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+(./main.aux))
+
+Here is how much of LuaTeX's memory you used:
+ 20836 strings out of 477785
+ 195342,662416 words of node,token memory allocated
+ 1247 words of node memory still in use:
+   17 hlist, 3 vlist, 9 rule, 1 local_par, 10 glue, 14 kern, 7 penalty, 8 glyph,
+ 146 attribute, 70 glue_spec, 24 attribute_list, 1 write, 1 user_defined nodes
+   avail lists: 2:19263,3:3885,4:84,5:5616,6:490,7:5667,8:1,9:7617,10:75
+ 41364 multiletter control sequences out of 65536+600000
+ 27 fonts using 6800711 bytes
+ 70i,5n,72p,1116b,173s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.ot
+f></usr/local/texlive/2022/texmf-dist/fonts/truetype/public/gregoriotex/greextra
+.ttf></usr/local/texlive/2022/texmf-dist/fonts/truetype/public/gregoriotex/greci
+liae-op.ttf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman
+17-regular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmro
+man10-regular.otf>
+Output written on main.pdf (1 page, 20601 bytes).
+
+PDF statistics: 43 PDF objects out of 1000 (max. 8388607)
+ 24 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 100000000)
+

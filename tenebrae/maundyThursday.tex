@@ -1,0 +1,151 @@
+% !TEX TS-program = LuaLaTex
+% !TEX encoding = UTF-8
+
+\documentclass[11pt]{book}
+
+\title{Maundy Thursday}
+\author{Rev. Mr. Gregory R. Barnes}
+
+\usepackage[paperwidth=5.5in, paperheight=8.5in]{geometry}
+\usepackage{multicol}
+\usepackage{paracol}
+\usepackage{Tabbing}
+\usepackage[savepos]{zref}
+
+\let\grelocalleftbox\localleftbox
+\let\grelocalrightbox\localrightbox
+
+\usepackage[latin]{babel}
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures=TeX}
+\usepackage[T1]{fontenc}
+\setmainfont{Minion3}
+%\setmainfont{LibertinusSerif-Regular.otf}[
+    %Path = /Library/Fonts/ ,
+    %BoldFont = LibertinusSerif-Semibold.otf,
+    %ItalicFont = LibertinusSerif-Italic.otf,
+    %BoldItalicFont  = LibertinusSerif-SemiboldItalic.otf,
+%]
+
+\usepackage[autocompile]{gregoriotex}
+\gresetlinecolor{gregoriocolor}
+%\grechangestaffsize{17}
+\gresetinitiallines{1}
+
+\usepackage{microtype}
+
+\usepackage[utf8]{inputenc}
+
+\newcommand{\redtitle}[1]{
+	\begin{center}
+		{
+			\color{red}
+			#1
+		}
+	\end{center}
+}
+
+\newcommand{\psalmtext}[1]{
+%	\begin{multicols}{2}
+		\input{#1}
+%	\end{multicols}
+}
+
+\newcommand{\rubric}[1]{
+	\begin{raggedright}
+		\vspace{1em}
+		{\color{red}\footnotesize #1}
+	\end{raggedright}
+}
+
+\begin{document}
+\maketitle
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+\newcommand{\black}[1]{\textcolor{black}{#1}}
+\setlength{\parindent}{0pt}
+\gresetbracerendering{font}
+
+\chapter*{Matins}
+
+\section*{In 1\textsuperscript{st} Nocturn}
+
+    \greannotation{Ant. 1}
+    \gregorioscore{an--zelus_domus_tuae--solesmes_1961}
+    
+    \redtitle{Psalmus 68.}
+    \gregorioscore{68-8c.gabc}
+    \psalmtext{68-8c.tex}
+
+    \greannotation{Ant. 1}
+    \gregorioscore{an--zelus_domus_tuae--solesmes_1961}
+    
+    \greannotation{Ant. 2}
+    \gregorioscore{an--avertantur_retrorsum--solesmes_1961}
+
+    \redtitle{Psalmus 69.}
+    \gregorioscore{69-8c}
+    \psalmtext{69-8c}
+
+    \greannotation{Ant. 2}
+    \gregorioscore{an--avertantur_retrorsum--solesmes_1961}
+    
+    \greannotation{Ant. 3}
+    \gregorioscore{an--deus_meus_eripe_me--solesmes_1961}
+
+    \redtitle{Psalmus 70.}
+    \gregorioscore{70-8c}
+    \psalmtext{70-8c}
+
+    \greannotation{Ant. 3}
+    \gregorioscore{an--deus_meus_eripe_me--solesmes_1961}
+    
+    \gresetinitiallines{0}
+    \gabcsnippet{(c4) <c><sp>V/</sp></c> A(h)ver(h)tán(h)tur(h) re(h)trór(h)sum,(h) et(h) e(i)ru(h)bé(g.)scant.(g.) (::)}
+    \gabcsnippet{(c4) <c><sp>R/</sp></c> Qui(h) có(h)gi(h)tant(h) mi(i)hi(h) ma(g.)la.(g.) (::)}
+    \gresetinitiallines{1}
+
+    \rubric{\black{Pater noster} in silence.}
+    \greannotation{Resp. 1}
+    \greannotation{8}
+    %\greannotation{\stackunder{Resp. 1}{8}}
+    \gregorioscore{re--in_monte_oliveti--solesmes_1961}
+    \greannotation{Resp. 2}
+    \greannotation{8}
+    \gregorioscore{re--tristis_est--solesmes_1961}
+    \greannotation{Resp. 3}
+    \greannotation{5}
+    \gregorioscore{re--ecce_vidimus_--solesmes_1961}
+    \rubric{\black{Ecce vidimus} is repeated as far as the \Vbar.}
+
+
+\section*{In 2\textsuperscript{nd} Nocturn}
+
+	
+	
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
