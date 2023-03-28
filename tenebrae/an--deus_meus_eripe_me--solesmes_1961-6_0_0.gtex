@@ -8,7 +8,7 @@
 \GreHeader{book}{The Liber Usualis, 1961, p. 629}%
 \GreHeader{transcriber}{Andrew Hinkley}%
 \GreEndHeaders %
-\GreBeginScore{9e067c435c27d7ed5096f3e4535feb06418ec64d}{13}{7}{0}{0}{}{4}{\GreInitialClefPosition{4}{0}}%
+\GreBeginScore{9f471b090f0c0f809be019db87c0657dec5ea3e6}{13}{7}{0}{0}{}{4}{\GreInitialClefPosition{4}{0}}%
 \GreMode{\GreModeNumber{8}}{}{}%
 \GreSetLargestClef{c}{4}{3}{c}{0}{3}%
 \GreScoreOpening{%
@@ -163,15 +163,7 @@
 }{}%
 }%
 %
-\GreBarSyllable{\GreSetThisSyllable{}{}{}{}{}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{}{}{}{}{}\GreLastOfLine}{}{{0}{0}}{}{%
-\GreSyllableNoteCount{0}%
-\GreLastOfScore\GreDivisioFinalis{0}{}%
+\GreFinalDivisioFinalis{%
 }%
-%
-%
-%
-\GreNewLine %
-%
-%
 \GreEndScore %
 \endinput %
