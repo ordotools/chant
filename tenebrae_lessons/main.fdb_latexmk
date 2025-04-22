@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1743934911.71758 "main.tex" "main.pdf" "main" 1743934946.79667 0
+["lualatex"] 1744077529.46119 "main.tex" "main.pdf" "main" 1744077560.09623 0
   "/Library/Fonts/Minion3-Bold.otf" 1662918514 602704 7713d815ce16da0aed430f4a780487db ""
   "/Library/Fonts/Minion3-Italic.otf" 1662918514 497036 47af473bea6a628d09566075f6c55984 ""
   "/Library/Fonts/Minion3-Regular.otf" 1662918514 620076 d4bd48c68d376fd015ddcebb31f30f07 ""
@@ -165,13 +165,13 @@
   "/usr/local/texlive/2024/texmf-var/tex/generic/config/language.dat" 1710266660 6831 bfdb703c6246bf92c6e7b254b6450228 ""
   "/usr/local/texlive/2024/texmf-var/web2c/luahbtex/lualatex.fmt" 1737660129 12257080 43f739e8acaa5e660744d0333b388b5c ""
   "chant.sty" 1708985071.18033 853 1d7de06320cad6c152b928670ba17057 ""
-  "friday_i-6_0_0.gtex" 1743934897.67326 75753 d9cfa0f3076579c2016bb68c53f81cf9 ""
-  "friday_i.gabc" 1743934875.05635 1912 daa18359fa4c6017e81f44b8849f1eed ""
+  "friday_i-6_0_0.gtex" 1744077515.44739 88394 9bf47f84744c54e9d41d648f6b9a3ec1 ""
+  "friday_i.gabc" 1744077491.12764 2088 5c89b7f47842e1f532af0f1457b4501c ""
   "images/Friday.jpg" 1708974613.84982 1184148 1bebee1d472d57423a0ebd76be6884c2 ""
   "images/Saturday.jpg" 1708974795.49758 1138967 d7047186958a6a7c05516a7fc45616b5 ""
   "images/Thursday.jpg" 1708974425.22242 964268 96ff57f8a3b759c3a5fa6ed98a2985ba ""
-  "main.aux" 1743934946.64512 228 a308e39aeead64d0469241aea933b8e9 "lualatex"
-  "main.gaux" 1743934911.56651 791 92666cf35bbc21604c97437c2d381c02 ""
+  "main.aux" 1744077559.9505 228 a308e39aeead64d0469241aea933b8e9 "lualatex"
+  "main.gaux" 1744077529.31862 861 e7cfdc5b5bd6d32628274574edfc5d84 ""
   "main.tex" 1743883092.64777 8648 d84f7b17b17aa559eb9b58477f282f50 ""
   "saturday_iii-6_0_0.gtex" 1710782435.31325 92492 c9f0a3c55a23d82ef8cfa844c6ccda0e ""
   "saturday_iii.gabc" 1709862694.09075 2215 12edb36684c8bf90f439613d4f63e8bd ""
