@@ -36,7 +36,7 @@
 \gresetlinecolor{gregoriocolor}
 \gresetinitiallines{1}
 \gresetannotationvalign{bottom}
-\grechangestyle{modeline}{\small} \grechangestyle{annotation}{\small}
+\grechangestyle{modeline}{\small} \grechangestyle{annotation}{\tiny}
 \gresetgregpath{{./antiphons/}}
 \gresetgregpath{{./responsories/}}
 
@@ -47,6 +47,10 @@
 \RequirePackage[latin]{babel}
 \RequirePackage{fontspec}
 \RequirePackage[T1]{fontenc}
+% \RequirePackage{textcomp}
+\RequirePackage[utf8]{inputenc}
+% \RequirePackage{ifthen}
+% \RequirePackage{amsmath}
 \defaultfontfeatures{Ligatures=TeX}
 \setmainfont{Minion3}
 \RequirePackage{lettrine}
@@ -98,6 +102,11 @@
 	\greannotation{Ant. \theantiphon}
 	\gresetgregpath{{./antiphons/}}
 	\greannotation{#3}
+
+	% \ifthenelse{\equal{#1}{4-alt-A}}%
+	%     \greannocation{4* A}%
+	%     \greannotation{#1}%
+
 	\gregorioscore{#1}
 	\subsection{Psalm #2.}
 	\gresetinitiallines{0} % only the first antiphon has a dropcap
